@@ -1,33 +1,19 @@
-# Expense Management System
+# 💸 Python Expense Tracker
 
-This project is an expense management system that consists of a Streamlit frontend application and a FastAPI backend server.
+A simple expense tracking system built with Python, Streamlit, and SQLite.
 
+## 🔧 Features
+- Add, update, and delete daily expenses
+- Monthly analytics using Matplotlib and Seaborn
+- Streamlit dashboard interface for easy use
 
-## Project Structure
+## 📦 Tech Stack
+- Python
+- Streamlit
+- SQLite
+- Pandas, Matplotlib, Seaborn
 
-- **frontend/**: Contains the Streamlit application code.
-- **backend/**: Contains the FastAPI backend server code.
-- **tests/**: Contains the test cases for both frontend and backend.
-- **requirements.txt**: Lists the required Python packages.
-- **README.md**: Provides an overview and instructions for the project.
-
-
-## Setup Instructions
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/expense-management-system.git
-   cd expense-management-system
-   ```
-1. **Install dependencies:**:   
-   ```commandline
-    pip install -r requirements.txt
-   ```
-1. **Run the FastAPI server:**:   
-   ```commandline
-    uvicorn server.server:app --reload
-   ```
-1. **Run the Streamlit app:**:   
-   ```commandline
-    streamlit run frontend/app.py
-   ```
+## 🚀 How to Run
+1. Clone this repo  
+2. Install dependencies  
+3. Run using `streamlit run frontend/app.py`
